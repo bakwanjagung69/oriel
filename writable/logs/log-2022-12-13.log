@@ -1,0 +1,195 @@
+CRITICAL - 2022-12-13 14:26:05 --> Invalid file: layout/header.php
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.p...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('layout/header', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Libraries\Template.php(34): view('layout/header', Array)
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Main.php(10): App\Libraries\Template->Frontend('home/component-...', Array)
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Main->index()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-12-13 14:26:05 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\wamp64\\www\\f...', 253)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\wamp64\\www\\f...')
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-13 14:26:56 --> Invalid file: layout/header.php
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.p...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('layout/header', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Libraries\Template.php(34): view('layout/header', Array)
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Main.php(10): App\Libraries\Template->Frontend('home/component-...', Array)
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Main->index()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-12-13 14:26:56 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\wamp64\\www\\f...', 253)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\wamp64\\www\\f...')
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-13 14:28:07 --> Invalid file: layout/header.php
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.p...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('layout/header', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Libraries\Template.php(34): view('layout/header', Array)
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Main.php(12): App\Libraries\Template->Frontend('home/component-...', Array)
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Main->index()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-12-13 14:28:07 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\wamp64\\www\\f...', 253)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\wamp64\\www\\f...')
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-13 14:28:16 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\wamp64\\www\\f...', 253)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(13): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(15): App\Models\ClassesModel->__construct()
+#10 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Admin\Login->__construct()
+#11 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#15 {main}
+CRITICAL - 2022-12-13 14:29:26 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\wamp64\\www\\f...', 253)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(13): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(15): App\Models\ClassesModel->__construct()
+#10 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Admin\Login->__construct()
+#11 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#15 {main}
+CRITICAL - 2022-12-13 14:29:31 --> Invalid file: layout/header.php
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.p...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('layout/header', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Libraries\Template.php(34): view('layout/header', Array)
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Main.php(10): App\Libraries\Template->Frontend('home/component-...', Array)
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Main->index()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-12-13 14:29:32 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\wamp64\\www\\f...', 253)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\wamp64\\www\\f...')
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-13 14:29:34 --> Invalid file: layout/header.php
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.p...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('layout/header', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Libraries\Template.php(34): view('layout/header', Array)
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Main.php(10): App\Libraries\Template->Frontend('home/component-...', Array)
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Main->index()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-12-13 14:29:34 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\wamp64\\www\\f...', 253)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\wamp64\\www\\f...')
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-13 14:29:53 --> Invalid file: layout/header.php
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.p...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('layout/header', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Libraries\Template.php(34): view('layout/header', Array)
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Main.php(10): App\Libraries\Template->Frontend('home/component-...', Array)
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Main->index()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-12-13 14:29:53 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\wamp64\\www\\f...', 253)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\wamp64\\www\\f...')
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-13 14:30:06 --> Invalid file: layout/header.php
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.p...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('layout/header', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Libraries\Template.php(34): view('layout/header', Array)
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Main.php(10): App\Libraries\Template->Frontend('home/component-...', Array)
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Main->index()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}

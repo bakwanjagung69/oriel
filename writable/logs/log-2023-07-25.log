@@ -1,0 +1,135 @@
+CRITICAL - 2023-07-25 11:57:49 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\wamp64\\www\\f...', 253)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(13): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(15): App\Models\ClassesModel->__construct()
+#10 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Admin\Login->__construct()
+#11 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#15 {main}
+CRITICAL - 2023-07-25 18:42:34 --> Class 'App\Models\Auth\AuthModel' not found
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Login->__construct()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#5 {main}
+CRITICAL - 2023-07-25 18:43:58 --> Invalid file: login/component-view-login.php
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/component...')
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('login/component...', Array, true)
+#2 C:\wamp64\www\oriel-web\app\Controllers\Login.php(27): view('login/component...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-07-25 21:14:00 --> Undefined index: emailOrUsername
+#0 C:\wamp64\www\oriel-web\app\Controllers\Admin\Login.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 37, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Login->auth()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-07-25 21:14:50 --> Undefined index: password
+#0 C:\wamp64\www\oriel-web\app\Controllers\Login.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 37, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+ERROR - 2023-07-25 21:15:18 --> Unknown column 'nim' in 'where clause'
+CRITICAL - 2023-07-25 21:15:18 --> Unknown column 'nim' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\wamp64\www\oriel-web\app\Models\Auth\AuthModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\wamp64\www\oriel-web\app\Controllers\Login.php(39): App\Models\Auth\AuthModel->doLogin(Array, NULL)
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#10 {main}
+ERROR - 2023-07-25 21:18:06 --> Unknown column 'nim' in 'where clause'
+CRITICAL - 2023-07-25 21:18:06 --> Unknown column 'nim' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\wamp64\www\oriel-web\app\Models\Auth\AuthModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\wamp64\www\oriel-web\app\Controllers\Login.php(39): App\Models\Auth\AuthModel->doLogin(Array, NULL)
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#10 {main}
+CRITICAL - 2023-07-25 21:48:05 --> Invalid file: layout/header.php
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.p...')
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#2 C:\wamp64\www\oriel-web\app\Libraries\Template.php(34): view('layout/header', Array)
+#3 C:\wamp64\www\oriel-web\app\Controllers\Dashboard.php(19): App\Libraries\Template->Frontend('dashboard/compo...', Array)
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#9 {main}
+CRITICAL - 2023-07-25 22:02:57 --> Invalid file: layout/footer.php
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/footer.p...')
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('layout/footer', Array, true)
+#2 C:\wamp64\www\oriel-web\app\Libraries\Template.php(37): view('layout/footer', Array)
+#3 C:\wamp64\www\oriel-web\app\Controllers\Dashboard.php(19): App\Libraries\Template->Frontend('dashboard/compo...', Array)
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#9 {main}
+CRITICAL - 2023-07-25 22:17:53 --> Invalid file: layout/modal.php
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/modal.ph...')
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('layout/modal', Array, true)
+#2 C:\wamp64\www\oriel-web\app\Libraries\Template.php(39): view('layout/modal', Array)
+#3 C:\wamp64\www\oriel-web\app\Controllers\Dashboard.php(19): App\Libraries\Template->Frontend('dashboard/compo...', Array)
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#9 {main}
+CRITICAL - 2023-07-25 22:40:31 --> Trying to get property 'frontend' of non-object
+#0 C:\wamp64\www\oriel-web\app\Views\layout\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\o...', 8, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\o...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 C:\wamp64\www\oriel-web\app\Libraries\Template.php(34): view('layout/header', Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\Dashboard.php(19): App\Libraries\Template->Frontend('dashboard/compo...', Array)
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-07-25 22:40:38 --> Trying to get property 'frontend' of non-object
+#0 C:\wamp64\www\oriel-web\app\Views\layout\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\o...', 8, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\o...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 C:\wamp64\www\oriel-web\app\Libraries\Template.php(34): view('layout/header', Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\Dashboard.php(19): App\Libraries\Template->Frontend('dashboard/compo...', Array)
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}

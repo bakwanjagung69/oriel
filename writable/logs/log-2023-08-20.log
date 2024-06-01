@@ -1,0 +1,1179 @@
+CRITICAL - 2023-08-20 19:45:34 --> Undefined variable $master_semester
+#0 C:\wamp64\www\oriel-web\app\Views\input-jadwal\component-view-input-jadwal.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 48)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\o...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('input-jadwal/co...', Array, true)
+#4 C:\wamp64\www\oriel-web\app\Libraries\Template.php(37): view('input-jadwal/co...', Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\InputJadwal.php(39): App\Libraries\Template->Frontend('input-jadwal/co...')
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputJadwal->index()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputJadwal))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-20 20:21:58 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$post
+#0 C:\wamp64\www\oriel-web\app\Models\InputJadwal\InputJadwalSupModel.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\o...', 77)
+#1 C:\wamp64\www\oriel-web\app\Controllers\InputJadwal.php(83): App\Models\InputJadwal\InputJadwalSupModel->getDatatables()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputJadwal->getdataSUP()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputJadwal))
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#7 {main}
+CRITICAL - 2023-08-20 20:22:10 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputJadwal.php(83): App\Models\InputJadwal\InputJadwalSupModel->getDatatables()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputJadwal->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputJadwal))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 20:22:18 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputJadwal.php(83): App\Models\InputJadwal\InputJadwalSupModel->getDatatables()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputJadwal->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputJadwal))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:08:21 --> Undefined variable $query
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 83)
+#1 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#7 {main}
+CRITICAL - 2023-08-20 21:10:14 --> syntax error, unexpected identifier "print_r"
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\o...')
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jadw...')
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(25): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jadw...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\JadwalSidang->__construct()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:10:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::join()
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:11:15 --> Undefined variable $query
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 83)
+#1 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#7 {main}
+CRITICAL - 2023-08-20 21:11:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::join()
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:12:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::join()
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:13:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:13:59 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\o...')
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jadw...')
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(25): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jadw...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\JadwalSidang->__construct()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:14:08 --> Undefined variable $output
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 188)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+ERROR - 2023-08-20 21:14:32 --> Unknown database 'formulir_sup'
+CRITICAL - 2023-08-20 21:14:32 --> Unknown database 'formulir_sup'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(86): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:20:09 --> Unknown column 'formulir_sup.semester' in 'field list'
+CRITICAL - 2023-08-20 21:20:09 --> Unknown column 'formulir_sup.semester' in 'field list'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `form...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `form...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `form...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *, `form...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(84): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:20:26 --> Unknown column 'formulir_sup.semester' in 'field list'
+CRITICAL - 2023-08-20 21:20:26 --> Unknown column 'formulir_sup.semester' in 'field list'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `form...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `form...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `form...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *, `form...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(84): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:22:38 --> Unknown column 'formulir_sup.semester' in 'field list'
+CRITICAL - 2023-08-20 21:22:38 --> Unknown column 'formulir_sup.semester' in 'field list'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `form...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `form...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `form...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *, `form...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(84): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:22:52 --> Unknown column 'semester' in 'field list'
+CRITICAL - 2023-08-20 21:22:52 --> Unknown column 'semester' in 'field list'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `seme...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `seme...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `seme...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *, `seme...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(84): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:23:01 --> Unknown column 'formulir_sup.semester' in 'field list'
+CRITICAL - 2023-08-20 21:23:01 --> Unknown column 'formulir_sup.semester' in 'field list'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `formuli...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `formuli...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `formuli...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT `formuli...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(84): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:23:07 --> Unknown column 'formulir_sup' in 'field list'
+CRITICAL - 2023-08-20 21:23:07 --> Unknown column 'formulir_sup' in 'field list'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `formuli...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `formuli...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `formuli...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT `formuli...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(84): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:23:29 --> Unknown column 'input_jadwal_sup.semester' in 'field list'
+CRITICAL - 2023-08-20 21:23:29 --> Unknown column 'input_jadwal_sup.semester' in 'field list'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `inpu...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `inpu...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `inpu...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *, `inpu...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(84): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:23:46 --> Unknown column 'input_jadwal_sup.semester' in 'field list'
+CRITICAL - 2023-08-20 21:23:46 --> Unknown column 'input_jadwal_sup.semester' in 'field list'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `input_j...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `input_j...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `input_j...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT `input_j...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(84): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-20 21:25:34 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 119)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:26:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:26:31 --> Call to undefined function App\Models\JadwalSidang\get()
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+ERROR - 2023-08-20 21:27:24 --> Unknown column 'semester' in 'where clause'
+CRITICAL - 2023-08-20 21:27:24 --> Unknown column 'semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(77): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:27:36 --> Unknown column 'formulir_sup.semester' in 'where clause'
+CRITICAL - 2023-08-20 21:27:36 --> Unknown column 'formulir_sup.semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(77): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:27:55 --> Unknown column 'formulir_sup.semester' in 'where clause'
+CRITICAL - 2023-08-20 21:27:55 --> Unknown column 'formulir_sup.semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(77): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:28:10 --> Unknown column 'semester' in 'where clause'
+CRITICAL - 2023-08-20 21:28:10 --> Unknown column 'semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(77): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:28:21 --> Unknown column 'input_jadwal_sup.semester' in 'where clause'
+CRITICAL - 2023-08-20 21:28:21 --> Unknown column 'input_jadwal_sup.semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(77): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-20 21:30:36 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 119)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:30:57 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 119)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+ERROR - 2023-08-20 21:31:20 --> Column 'id' in order clause is ambiguous
+CRITICAL - 2023-08-20 21:31:20 --> Column 'id' in order clause is ambiguous
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:31:34 --> Column 'id' in order clause is ambiguous
+CRITICAL - 2023-08-20 21:31:34 --> Column 'id' in order clause is ambiguous
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(78): CodeIgniter\Database\BaseBuilder->getWhere('input_jadwal_su...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:32:23 --> Column 'id' in order clause is ambiguous
+CRITICAL - 2023-08-20 21:32:23 --> Column 'id' in order clause is ambiguous
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(78): CodeIgniter\Database\BaseBuilder->getWhere('input_jadwal_su...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:33:12 --> Column 'id' in order clause is ambiguous
+CRITICAL - 2023-08-20 21:33:12 --> Column 'id' in order clause is ambiguous
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(78): CodeIgniter\Database\BaseBuilder->getWhere('input_jadwal_su...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-20 21:33:49 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\o...', 64)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:34:16 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\o...', 64)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:34:32 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\o...', 64)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:34:42 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\o...', 64)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:34:48 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\o...', 64)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:35:09 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#1 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#7 {main}
+CRITICAL - 2023-08-20 21:35:17 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\o...', 65)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:35:23 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\o...', 65)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:36:10 --> Undefined array key "input_jadwal_sup.id"
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\o...', 65)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:36:37 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 119)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:36:43 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 119)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:37:05 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 119)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:37:12 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 119)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:38:54 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 119)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:39:04 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 119)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:39:06 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 119)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:39:21 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 119)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:39:37 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 119)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+ERROR - 2023-08-20 21:41:40 --> Column 'id' in order clause is ambiguous
+CRITICAL - 2023-08-20 21:41:40 --> Column 'id' in order clause is ambiguous
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(78): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:42:09 --> Unknown column 'semester' in 'where clause'
+CRITICAL - 2023-08-20 21:42:09 --> Unknown column 'semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(77): CodeIgniter\Database\BaseBuilder->getWhere('semester = "2" ...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:42:17 --> Unknown column 'formulir_sup.semester' in 'where clause'
+CRITICAL - 2023-08-20 21:42:17 --> Unknown column 'formulir_sup.semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(77): CodeIgniter\Database\BaseBuilder->getWhere('formulir_sup.se...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:43:12 --> Column 'id' in order clause is ambiguous
+CRITICAL - 2023-08-20 21:43:12 --> Column 'id' in order clause is ambiguous
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(78): CodeIgniter\Database\BaseBuilder->getWhere('input_jadwal_su...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-20 21:43:32 --> Undefined array key "input_jadwal_sup.id"
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\o...', 65)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:44:12 --> Undefined array key "input_jadwal_sup.id"
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\o...', 65)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+ERROR - 2023-08-20 21:44:43 --> Column 'id' in order clause is ambiguous
+CRITICAL - 2023-08-20 21:44:43 --> Column 'id' in order clause is ambiguous
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(79): CodeIgniter\Database\BaseBuilder->getWhere('input_jadwal_su...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:49:49 --> Column 'id' in order clause is ambiguous
+CRITICAL - 2023-08-20 21:49:49 --> Column 'id' in order clause is ambiguous
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(80): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-20 21:50:29 --> Undefined array key "input_jadwal_sup.id"
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\o...', 65)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:50:56 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\o...', 64)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:51:37 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\o...', 64)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(104): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:52:07 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\o...', 64)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(47): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:52:19 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\o...', 64)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(70): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(47): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+ERROR - 2023-08-20 21:52:35 --> Column 'id' in order clause is ambiguous
+CRITICAL - 2023-08-20 21:52:35 --> Column 'id' in order clause is ambiguous
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(80): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(47): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-20 21:52:50 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\o...', 64)
+#1 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(71): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatablesQuery()
+#2 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(47): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-20 21:53:33 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 62)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:55:15 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 62)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 21:55:30 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\o...', 64)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+ERROR - 2023-08-20 21:57:04 --> Unknown column 'semester' in 'where clause'
+CRITICAL - 2023-08-20 21:57:04 --> Unknown column 'semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(79): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(47): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:57:14 --> Unknown column 'formulir_sup.semester' in 'where clause'
+CRITICAL - 2023-08-20 21:57:14 --> Unknown column 'formulir_sup.semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(79): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(47): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 21:57:23 --> Unknown column 'input_jadwal_sup.semester' in 'where clause'
+CRITICAL - 2023-08-20 21:57:23 --> Unknown column 'input_jadwal_sup.semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(79): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(47): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 22:12:51 --> Unknown column 'tanggal_dan_waktu' in 'where clause'
+CRITICAL - 2023-08-20 22:12:51 --> Unknown column 'tanggal_dan_waktu' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(75): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(47): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 22:12:58 --> Unknown column 'tanggal_dan_waktu' in 'where clause'
+CRITICAL - 2023-08-20 22:12:58 --> Unknown column 'tanggal_dan_waktu' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(75): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(47): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 22:13:53 --> Unknown column 'semester' in 'where clause'
+CRITICAL - 2023-08-20 22:13:53 --> Unknown column 'semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(76): CodeIgniter\Database\BaseBuilder->getWhere('mahasiswa_id IS...')
+#5 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(47): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-20 22:20:27 --> Undefined variable $query
+#0 C:\wamp64\www\oriel-web\app\Models\JadwalSidang\JadwalSidangSUPModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 75)
+#1 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(47): App\Models\JadwalSidang\JadwalSidangSUPModel->getDatatables()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSUP()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#7 {main}
+CRITICAL - 2023-08-20 22:48:54 --> Undefined variable $getStatusFormSup
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 232)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 22:49:14 --> Undefined array key "semester"
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\o...', 234)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 22:49:23 --> Undefined array key "semester"
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\o...', 234)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:15:01 --> Undefined variable $getStatusFormSkripsi
+#0 C:\wamp64\www\oriel-web\app\Controllers\JadwalSidang.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 233)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:19:24 --> Undefined property: stdClass::$semester
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\o...', 69)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:20:54 --> Call to undefined method App\Controllers\InputNilai::getById()
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSUP()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#5 {main}
+CRITICAL - 2023-08-20 23:23:49 --> Undefined variable $formulirSupData
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 137)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:24:16 --> Undefined variable $formulirSkripsiData
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 137)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:24:23 --> Undefined variable $formulirSkripsiData
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 137)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:24:42 --> Undefined variable $formulirSkripsiData
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 137)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:24:44 --> Undefined variable $formulirSkripsiData
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 137)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:24:52 --> Undefined variable $formulirSkripsiData
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 137)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:24:53 --> Undefined variable $formulirSkripsiData
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 137)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:24:57 --> Undefined variable $formulirSkripsiData
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 137)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:25:05 --> Undefined variable $formulirSkripsiData
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 137)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:25:05 --> Undefined variable $formulirSkripsiData
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 137)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:25:29 --> Undefined variable $formulirSkripsiData
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 137)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:25:47 --> Undefined variable $formulirSkripsiData
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 138)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+ERROR - 2023-08-20 23:31:46 --> Unknown column 'semester' in 'where clause'
+CRITICAL - 2023-08-20 23:31:46 --> Unknown column 'semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSUPModel.php(109): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 23:31:55 --> Unknown column 'semester' in 'where clause'
+CRITICAL - 2023-08-20 23:31:55 --> Unknown column 'semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSUPModel.php(109): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 23:32:19 --> Unknown column 'semester' in 'where clause'
+CRITICAL - 2023-08-20 23:32:19 --> Unknown column 'semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSUPModel.php(109): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 23:34:19 --> Unknown column 'semester' in 'where clause'
+CRITICAL - 2023-08-20 23:34:19 --> Unknown column 'semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSUPModel.php(110): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+ERROR - 2023-08-20 23:34:22 --> Unknown column 'semester' in 'where clause'
+CRITICAL - 2023-08-20 23:34:22 --> Unknown column 'semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSUPModel.php(110): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-20 23:35:20 --> syntax error, unexpected token "if"
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\o...')
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hasi...')
+#2 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(22): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hasi...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\HasilNilai->__construct()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+ERROR - 2023-08-20 23:35:30 --> Unknown column 'semester' in 'where clause'
+CRITICAL - 2023-08-20 23:35:30 --> Unknown column 'semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSUPModel.php(111): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-20 23:38:39 --> Call to undefined function App\Models\HasilNilai\get()
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:38:56 --> Call to undefined function App\Models\HasilNilai\get()
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:54:13 --> syntax error, unexpected token "{"
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hasilNilai')
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('hasilNilai')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+ERROR - 2023-08-20 23:58:39 --> Unknown column 'semester' in 'where clause'
+CRITICAL - 2023-08-20 23:58:39 --> Unknown column 'semester' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSkripsiModel.php(109): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(198): App\Models\HasilNilai\HasilNilaiSkripsiModel->getDatatables()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-20 23:59:02 --> Undefined array key "formulir_sup_id"
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\o...', 275)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:59:13 --> Undefined array key "formulir_sup_id"
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\o...', 275)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:59:15 --> Undefined array key "formulir_sup_id"
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\o...', 275)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:59:25 --> Undefined array key "formulir_sup_id"
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\o...', 275)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-20 23:59:40 --> Undefined array key "formulir_sup_id"
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\o...', 293)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}

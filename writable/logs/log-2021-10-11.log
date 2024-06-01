@@ -1,0 +1,12 @@
+CRITICAL - 2021-10-11 13:22:20 --> Undefined variable: data
+#0 C:\wamp64\www\tms\app\Views\welcome_message.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\t...', 200, Array)
+#1 C:\wamp64\www\tms\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\tms\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\tms\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\wamp64\www\tms\app\Controllers\Home.php(9): view('welcome_message')
+#5 C:\wamp64\www\tms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\wamp64\www\tms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\tms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\tms\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\tms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\t...')
+#10 {main}

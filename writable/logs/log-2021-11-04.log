@@ -1,0 +1,47 @@
+CRITICAL - 2021-11-04 00:01:50 --> Array to string conversion
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\f...', 98, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->updateData()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-04 00:02:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(132): App\Models\Admin\Users\UsersModel->UpdateData(Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->updateData()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-04 04:14:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(143): App\Models\Admin\Users\UsersModel->DeleteData(Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->Delete()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+ERROR - 2021-11-04 04:15:55 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2021-11-04 04:15:55 --> Unknown column 'user' in 'where clause'
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('DELETE FROM `us...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2175): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Users\UsersModel.php(383): CodeIgniter\Database\BaseBuilder->delete('user')
+#5 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(143): App\Models\Admin\Users\UsersModel->DeleteData(Array)
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->Delete()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#11 {main}
+CRITICAL - 2021-11-04 04:24:54 --> Undefined variable: builder
+#0 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Users\UsersModel.php(384): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 384, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(143): App\Models\Admin\Users\UsersModel->DeleteData(Array)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->Delete()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}

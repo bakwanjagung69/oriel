@@ -1,0 +1,99 @@
+CRITICAL - 2023-08-08 00:33:35 --> Call to a member function setJson() on null
+#0 C:\wamp64\www\oriel-web\app\Controllers\ListPendaftaran.php(403): App\Models\ListPendaftaran\ListPendaftaranUjiKelayakanModel->addSuratTugas(Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ListPendaftaran->addSuratTugas()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListPendaftaran))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-08 00:36:07 --> Call to a member function setJson() on null
+#0 C:\wamp64\www\oriel-web\app\Controllers\ListPendaftaran.php(403): App\Models\ListPendaftaran\ListPendaftaranUjiKelayakanModel->addSuratTugas(Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ListPendaftaran->addSuratTugas()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListPendaftaran))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-08 00:39:13 --> Call to a member function setJson() on null
+#0 C:\wamp64\www\oriel-web\app\Controllers\ListPendaftaran.php(403): App\Models\ListPendaftaran\ListPendaftaranUjiKelayakanModel->addSuratTugas(Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ListPendaftaran->addSuratTugas()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListPendaftaran))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+ERROR - 2023-08-08 01:12:09 --> Unknown column 'dosen_id' in 'where clause'
+CRITICAL - 2023-08-08 01:12:09 --> Unknown column 'dosen_id' in 'where clause'
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE\r\n       ...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE\r\n       ...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE\r\n       ...')
+#3 C:\wamp64\www\oriel-web\app\Models\SuratTugas\SuratTugasModel.php(141): CodeIgniter\Database\BaseConnection->query('UPDATE\r\n       ...')
+#4 C:\wamp64\www\oriel-web\app\Controllers\SuratTugas.php(143): App\Models\SuratTugas\SuratTugasModel->insertPenilaianUjiKelayakan(Array)
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuratTugas->insertPenilaian()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratTugas))
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#10 {main}
+CRITICAL - 2023-08-08 01:32:25 --> syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM)
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\o...')
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sura...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sura...')
+#3 C:\wamp64\www\oriel-web\app\Controllers\SuratTugas.php(19): spl_autoload_call('App\\Models\\Sura...')
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\SuratTugas->__construct()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#9 {main}
+CRITICAL - 2023-08-08 01:32:38 --> syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM)
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\o...')
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sura...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sura...')
+#3 C:\wamp64\www\oriel-web\app\Controllers\SuratTugas.php(19): spl_autoload_call('App\\Models\\Sura...')
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\SuratTugas->__construct()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#9 {main}
+CRITICAL - 2023-08-08 01:47:18 --> Undefined property: stdClass::$mahasiswa_id
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilPenilaianJudul.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\o...', 41, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilPenilaianJudul->getdata()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilPenilaianJudul))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-08 01:47:25 --> Undefined property: stdClass::$mahasiswa_id
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilPenilaianJudul.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\o...', 41, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilPenilaianJudul->getdata()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilPenilaianJudul))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-08 01:51:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilPenilaianJudul.php(35): App\Models\HasilPenilaianJudul\HasilPenilaianJudulModel->getDatatables()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilPenilaianJudul->getdata()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilPenilaianJudul))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-08 01:52:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilPenilaianJudul.php(35): App\Models\HasilPenilaianJudul\HasilPenilaianJudulModel->getDatatables()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilPenilaianJudul->getdata()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilPenilaianJudul))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-08 01:56:20 --> Undefined property: stdClass::$_ids
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilPenilaianJudul.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\o...', 45, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilPenilaianJudul->getdata()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilPenilaianJudul))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}

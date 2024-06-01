@@ -1,0 +1,48 @@
+ERROR - 2023-08-05 21:25:02 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-08-05 21:25:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\oriel-web\app\Models\Auth\AuthModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 C:\wamp64\www\oriel-web\app\Controllers\Login.php(39): App\Models\Auth\AuthModel->doLogin(Array, NULL)
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-05 21:25:02 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\wamp64\www\oriel-web\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\wamp64\\www\\o...', 96, Array)
+#1 C:\wamp64\www\oriel-web\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Login), true)
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\wamp64\\www\\o...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-08-05 21:28:40 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-08-05 21:28:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\oriel-web\app\Models\Auth\AuthModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 C:\wamp64\www\oriel-web\app\Controllers\Login.php(39): App\Models\Auth\AuthModel->doLogin(Array, NULL)
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-05 21:28:40 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\wamp64\www\oriel-web\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\wamp64\\www\\o...', 96, Array)
+#1 C:\wamp64\www\oriel-web\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Login), true)
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\wamp64\\www\\o...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

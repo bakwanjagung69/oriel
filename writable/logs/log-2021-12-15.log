@@ -1,0 +1,59 @@
+CRITICAL - 2021-12-15 13:41:45 --> Cannot declare class App\Config\MaintenanceMode, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-15 13:44:48 --> Testing
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniterext\maintenancemode\src\Controllers\MaintenanceMode.php(75): CodeigniterExt\MaintenanceMode\Exceptions\ServiceUnavailableException::forServerDow('Testing')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeigniterExt\MaintenanceMode\Controllers\MaintenanceMode::check()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#5 {main}
+CRITICAL - 2021-12-15 13:44:51 --> Testing
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniterext\maintenancemode\src\Controllers\MaintenanceMode.php(75): CodeigniterExt\MaintenanceMode\Exceptions\ServiceUnavailableException::forServerDow('Testing')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeigniterExt\MaintenanceMode\Controllers\MaintenanceMode::check()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#5 {main}
+CRITICAL - 2021-12-15 13:51:17 --> Maintenance updating Services
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniterext\maintenancemode\src\Controllers\MaintenanceMode.php(75): CodeigniterExt\MaintenanceMode\Exceptions\ServiceUnavailableException::forServerDow('Maintenance upd...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeigniterExt\MaintenanceMode\Controllers\MaintenanceMode::check()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#5 {main}
+CRITICAL - 2021-12-15 13:52:25 --> Maintenance updating Services
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniterext\maintenancemode\src\Controllers\MaintenanceMode.php(75): CodeigniterExt\MaintenanceMode\Exceptions\ServiceUnavailableException::forServerDow('Maintenance upd...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeigniterExt\MaintenanceMode\Controllers\MaintenanceMode::check()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#5 {main}
+CRITICAL - 2021-12-15 13:58:51 --> Maintenance....
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniterext\maintenancemode\src\Controllers\MaintenanceMode.php(75): CodeigniterExt\MaintenanceMode\Exceptions\ServiceUnavailableException::forServerDow('Maintenance....')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeigniterExt\MaintenanceMode\Controllers\MaintenanceMode::check()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#5 {main}
+CRITICAL - 2021-12-15 13:58:56 --> Maintenance....
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniterext\maintenancemode\src\Controllers\MaintenanceMode.php(75): CodeigniterExt\MaintenanceMode\Exceptions\ServiceUnavailableException::forServerDow('Maintenance....')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeigniterExt\MaintenanceMode\Controllers\MaintenanceMode::check()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#5 {main}
+CRITICAL - 2021-12-15 13:59:02 --> Maintenance....
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniterext\maintenancemode\src\Controllers\MaintenanceMode.php(75): CodeigniterExt\MaintenanceMode\Exceptions\ServiceUnavailableException::forServerDow('Maintenance....')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeigniterExt\MaintenanceMode\Controllers\MaintenanceMode::check()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#5 {main}
+CRITICAL - 2021-12-15 14:04:41 --> Maintenance....
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniterext\maintenancemode\src\Controllers\MaintenanceMode.php(75): CodeigniterExt\MaintenanceMode\Exceptions\ServiceUnavailableException::forServerDow('Maintenance....')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeigniterExt\MaintenanceMode\Controllers\MaintenanceMode::check()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#5 {main}

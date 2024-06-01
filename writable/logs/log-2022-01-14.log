@@ -1,0 +1,721 @@
+CRITICAL - 2022-01-14 11:06:45 --> file_get_contents(/assets/upload/users/thumbnails/thumb-90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\f...', 25, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(25): file_get_contents('/assets/upload/...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 11:07:03 --> file_get_contents(/assets/upload/users/thumbnails/thumb-90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\f...', 25, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(25): file_get_contents('/assets/upload/...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 11:07:33 --> file_get_contents(/assets/upload/users/thumbnails/thumb-90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\f...', 25, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(25): file_get_contents('/assets/upload/...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 11:08:02 --> file_get_contents(/assets/upload/users/thumbnails/thumb-90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\f...', 25, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(25): file_get_contents('/assets/upload/...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 11:08:15 --> Undefined variable: getFiles
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 11:08:40 --> file_get_contents(/assets/upload/users/thumbnails/thumb-90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\f...', 25, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(25): file_get_contents('/assets/upload/...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 11:08:46 --> file_get_contents(/assets/upload/users/thumbnails/thumb-90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): file_get_contents('/assets/upload/...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 11:10:39 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-14 11:11:39 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-14 11:12:45 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-14 11:15:05 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-14 11:17:38 --> Undefined variable: file
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 29, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 11:17:59 --> Undefined variable: file
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 29, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 11:18:07 --> Undefined variable: file
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 29, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 11:19:43 --> Undefined variable: file
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 29, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 11:19:55 --> Undefined variable: res__
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 29, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 11:22:30 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-14 11:30:37 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-14 11:31:47 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-14 11:32:53 --> Undefined property: App\Controllers\Files::$load
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 27, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 11:35:06 --> Undefined property: App\Controllers\Files::$globals
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 11:35:28 --> Undefined property: App\Controllers\Files::$globals
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 11:35:33 --> Undefined property: App\Controllers\Files::$server
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 11:36:38 --> A non-numeric value encountered
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\f...', 28, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 11:37:09 --> file_get_contents(C:\wamp64\wwwramework-template-ci4\public/assets/upload/users/thumbnails/thumb-90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\f...', 28, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(28): file_get_contents('C:\\wamp64\\www\fr...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 11:38:24 --> file_get_contents(C:\wamp64\wwwramework-template-ci4\public&quot;assets&quot;upload&quot;users&quot;thumbnails&quot;thumb-90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\f...', 29, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(29): file_get_contents('C:\\wamp64\\www\fr...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 11:40:10 --> file_get_contents(C:\wamp64\wwwramework-template-ci4\public\assets\upload\users\thumbnails\thumb-90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\f...', 30, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(30): file_get_contents('C:\\wamp64\\www\fr...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 11:40:44 --> file_get_contents(C:\wamp64\www\framework-template-ci4\\assets\upload\users\thumbnails\thumb-90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\f...', 30, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(30): file_get_contents('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 11:45:55 --> filesize(): stat failed for http://localhost:8080/assets/upload/users/thumbnails/thumb-90627-test-PCR.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\wamp64\\www\\f...', 36, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(36): filesize('http://localhos...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 11:46:45 --> filesize(): stat failed for C:\wamp64\www\framework-template-ci4\\assets\upload\users\thumbnails\thumb-90627-test-PCR.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\wamp64\\www\\f...', 36, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(36): filesize('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->index()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 12:50:17 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-14 12:51:52 --> syntax error, unexpected '$type' (T_VARIABLE)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('files/images')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('files/images')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 12:52:06 --> syntax error, unexpected '$type' (T_VARIABLE)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('files/images')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('files/images')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 12:55:26 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('files/images')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('files/images')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 13:01:32 --> mime_content_type(C:\wamp64\www\framework-template-ci4\assets\system\img\image-broken-1.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'C:\\wamp64\\www\\f...', 64, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(64): mime_content_type('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->noImage()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 13:01:53 --> mime_content_type(C:\wamp64\www\framework-template-ci4\publicassets\system\img\image-broken-1.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'C:\\wamp64\\www\\f...', 64, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(64): mime_content_type('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->noImage()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 13:04:56 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(29): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xBA\xCE$\xD8\x17\xB1n$\x9B\xFB\x90\xE4S\x82@...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:05:15 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(29): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xBA\xCE$\xD8\x17\xB1n$\x9B\xFB\x90\xE4S\x82@...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:05:38 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(29): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xBA\xCE$\xD8\x17\xB1n$\x9B\xFB\x90\xE4S\x82@...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:05:58 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(29): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xBA\xCE$\xD8\x17\xB1n$\x9B\xFB\x90\xE4S\x82@...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:07:09 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(30): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xBA\xCE$\xD8\x17\xB1n$\x9B\xFB\x90\xE4S\x82@...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:07:24 --> syntax error, unexpected '}'
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Clas...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Clas...')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(13): spl_autoload_call('App\\Models\\Clas...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Files->__construct()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:07:38 --> Undefined variable: enc
+#0 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 30, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 13:07:51 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(30): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xBA\xCE$\xD8\x17\xB1n$\x9B\xFB\x90\xE4S\x82@...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:08:40 --> syntax error, unexpected '"\n"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Clas...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Clas...')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(13): spl_autoload_call('App\\Models\\Clas...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Files->__construct()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:08:56 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(30): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xBA\xCE$\xD8\x17\xB1n$\x9B\xFB\x90\xE4S\x82@...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:09:08 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(30): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xBA\xCE$\xD8\x17\xB1n$\x9B\xFB\x90\xE4S\x82@...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:10:08 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(30): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xBA\xCE$\xD8\x17\xB1n$\x9B\xFB\x90\xE4S\x82@...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:10:37 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(31): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('\xBA\xCE$\xD8\x17\xB1n$\x9B\xFB\x90\xE4S\x82@...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:11:44 --> syntax error, unexpected '}'
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Clas...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Clas...')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(13): spl_autoload_call('App\\Models\\Clas...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Files->__construct()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:12:14 --> hex2bin(): Input string must be hexadecimal string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hex2bin(): Inpu...', 'C:\\wamp64\\www\\f...', 32, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(32): hex2bin('$ct1')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:12:25 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(32): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:12:27 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(32): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:16:10 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 13:29:23 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(34): CodeIgniter\Model->__get('classesModel')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:30:01 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(34): CodeIgniter\Model->__get('classesModel')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:30:18 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(34): CodeIgniter\Model->__get('classesModel')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:31:11 --> syntax error, unexpected '$getBackground' (T_VARIABLE), expecting identifier (T_STRING)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Clas...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Clas...')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(13): spl_autoload_call('App\\Models\\Clas...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Files->__construct()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:31:42 --> syntax error, unexpected '$getBackground' (T_VARIABLE), expecting identifier (T_STRING)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Clas...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Clas...')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(13): spl_autoload_call('App\\Models\\Clas...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Files->__construct()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:32:01 --> syntax error, unexpected '$getBackground' (T_VARIABLE), expecting identifier (T_STRING)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Clas...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Clas...')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(13): spl_autoload_call('App\\Models\\Clas...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Files->__construct()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:32:13 --> syntax error, unexpected '$getBackground' (T_VARIABLE), expecting identifier (T_STRING)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Clas...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Clas...')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(13): spl_autoload_call('App\\Models\\Clas...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Files->__construct()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:32:23 --> syntax error, unexpected '$getBackground' (T_VARIABLE), expecting identifier (T_STRING)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Clas...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Clas...')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(13): spl_autoload_call('App\\Models\\Clas...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Files->__construct()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:33:06 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(35): CodeIgniter\Model->__get('classesModel')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:33:55 --> Call to undefined method CodeIgniter\Encryption\Handlers\OpenSSLHandler::encrypter()
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 13:36:34 --> mime_content_type(C:\wamp64\www\framework-template-ci4\publicassets\system\img\system-error.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'C:\\wamp64\\www\\f...', 31, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(31): mime_content_type('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 13:37:28 --> mime_content_type(C:\wamp64\www\framework-template-ci4\publicassets\system\img\system-error.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'C:\\wamp64\\www\\f...', 31, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(31): mime_content_type('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 13:37:52 --> mime_content_type(C:\wamp64\www\framework-template-ci4\publicassets\system\img\system-error.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'C:\\wamp64\\www\\f...', 31, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(31): mime_content_type('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 13:49:40 --> syntax error, unexpected 'text' (T_STRING)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Clas...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Clas...')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(13): spl_autoload_call('App\\Models\\Clas...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Files->__construct()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:49:50 --> syntax error, unexpected 'text' (T_STRING)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Clas...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Clas...')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(13): spl_autoload_call('App\\Models\\Clas...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Files->__construct()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2022-01-14 13:50:15 --> Undefined variable: resultDecrypt
+#0 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 36, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Models\ClassesModel.php(44): App\Models\ClassesModel->encrypter('/assets/system/...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(26): App\Models\ClassesModel->decrypter('ValT8UFcTCXW6dV...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2022-01-14 13:58:29 --> Use of undefined constant arrSet - assumed 'arrSet' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\f...', 92, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\Users->getDataById()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 13:59:14 --> Undefined variable: data
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 89, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\Users->getDataById()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 13:59:41 --> Trying to get property 'images' of non-object
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 89, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\Users->getDataById()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 13:59:54 --> Use of undefined constant arrSet - assumed 'arrSet' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\f...', 92, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\Users->getDataById()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 14:08:13 --> mime_content_type(C:\wamp64\www\framework-template-ci4\public\assets\upload\users\90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'C:\\wamp64\\www\\f...', 31, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(31): mime_content_type('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 14:08:34 --> mime_content_type(C:\wamp64\www\framework-template-ci4\public\assets\upload\users\90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'C:\\wamp64\\www\\f...', 31, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(31): mime_content_type('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 14:08:38 --> mime_content_type(C:\wamp64\www\framework-template-ci4\public\assets\upload\users\90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'C:\\wamp64\\www\\f...', 31, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(31): mime_content_type('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 14:08:43 --> mime_content_type(C:\wamp64\www\framework-template-ci4\public\assets\upload\users\90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'C:\\wamp64\\www\\f...', 31, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(31): mime_content_type('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 14:08:54 --> mime_content_type(C:\wamp64\www\framework-template-ci4\public\assets\upload\users\90627-test-PCR.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'C:\\wamp64\\www\\f...', 31, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Files.php(31): mime_content_type('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 14:10:23 --> Call to undefined method App\Controllers\Files::encrypter()
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Files->images()
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Files))
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#5 {main}
+CRITICAL - 2022-01-14 14:46:02 --> Cannot redeclare App\Controllers\Admin\ConfigMail::getDataById()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-14 14:46:57 --> Undefined property: App\Controllers\Admin\ConfigMail::$usersModel
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\ConfigMail.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 105, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\ConfigMail->getDataById()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ConfigMail))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2022-01-14 14:58:45 --> Undefined variable: __data
+#0 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Auth\AuthModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 48, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(37): App\Models\Admin\Auth\AuthModel->doLogin(Array)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\Login->auth()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2022-01-14 14:59:04 --> Undefined variable: __data
+#0 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Auth\AuthModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 49, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(37): App\Models\Admin\Auth\AuthModel->doLogin(Array)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\Login->auth()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}

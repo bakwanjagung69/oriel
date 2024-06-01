@@ -1,0 +1,13 @@
+.btn-col-navy {
+    background-color: #0A3965;
+    border: 1px solid #0A3965;
+    color: #fff;
+}
+
+table.dataTable tbody tr:hover {
+   background-color: #001f5312 !important;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}

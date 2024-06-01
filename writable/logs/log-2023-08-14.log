@@ -1,0 +1,339 @@
+CRITICAL - 2023-08-14 00:04:45 --> Undefined index: status
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(262): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 262, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->details()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-14 00:05:08 --> Undefined index: jadwalId
+#0 C:\wamp64\www\oriel-web\app\Views\hasil-nilai\component-view-hasil-nilai-skripsi-details.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 18, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\o...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('hasil-nilai/com...', Array, true)
+#4 C:\wamp64\www\oriel-web\app\Libraries\Template.php(37): view('hasil-nilai/com...', Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(276): App\Libraries\Template->Frontend('hasil-nilai/com...', Array)
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->details()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-14 00:05:41 --> Undefined index: tanggal_dan_waktu
+#0 C:\wamp64\www\oriel-web\app\Views\hasil-nilai\component-view-hasil-nilai-skripsi-details.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 97, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\o...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('hasil-nilai/com...', Array, true)
+#4 C:\wamp64\www\oriel-web\app\Libraries\Template.php(37): view('hasil-nilai/com...', Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(276): App\Libraries\Template->Frontend('hasil-nilai/com...', Array)
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->details()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-14 00:11:58 --> Undefined index: formulir_skripsi_id
+#0 C:\wamp64\www\oriel-web\app\Views\hasil-nilai\component-view-hasil-nilai-skripsi-details.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 17, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\o...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('hasil-nilai/com...', Array, true)
+#4 C:\wamp64\www\oriel-web\app\Libraries\Template.php(37): view('hasil-nilai/com...', Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(276): App\Libraries\Template->Frontend('hasil-nilai/com...', Array)
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->details()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-14 00:16:21 --> Undefined property: stdClass::$input_jadwal_id
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\o...', 123, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-14 00:16:29 --> Undefined property: stdClass::$input_jadwal_id
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\o...', 123, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-14 00:31:51 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\o...', 276, Array)
+#1 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSkripsiModel.php(276): count(NULL)
+#2 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(141): App\Models\HasilNilai\HasilNilaiSkripsiModel->calculateTotalNilaiToGradePerDosen(NULL, '7fM%2FKGY%2B9nX...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-14 00:31:53 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\o...', 276, Array)
+#1 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSkripsiModel.php(276): count(NULL)
+#2 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(141): App\Models\HasilNilai\HasilNilaiSkripsiModel->calculateTotalNilaiToGradePerDosen(NULL, 'kXpIZ8zftUOrV%2...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-14 00:31:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\o...', 276, Array)
+#1 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSkripsiModel.php(276): count(NULL)
+#2 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(141): App\Models\HasilNilai\HasilNilaiSkripsiModel->calculateTotalNilaiToGradePerDosen(NULL, 'S4HfUfMUwhRjpCu...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-14 00:32:01 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\o...', 276, Array)
+#1 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSkripsiModel.php(276): count(NULL)
+#2 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(141): App\Models\HasilNilai\HasilNilaiSkripsiModel->calculateTotalNilaiToGradePerDosen(NULL, 'CJQ6srUVB4IM2Kp...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-14 00:33:08 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\o...', 276, Array)
+#1 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSkripsiModel.php(276): count(NULL)
+#2 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(141): App\Models\HasilNilai\HasilNilaiSkripsiModel->calculateTotalNilaiToGradePerDosen(NULL, 'L5YLRPjwjgWoqXb...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-14 00:34:10 --> Undefined offset: -1
+#0 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSkripsiModel.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\o...', 276, Array)
+#1 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(141): App\Models\HasilNilai\HasilNilaiSkripsiModel->calculateTotalNilaiToGradePerDosen(NULL, 'O3hl7UmdPuGZYsA...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#7 {main}
+CRITICAL - 2023-08-14 00:36:48 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\o...', 284, Array)
+#1 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSkripsiModel.php(284): count(NULL)
+#2 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(141): App\Models\HasilNilai\HasilNilaiSkripsiModel->calculateTotalNilaiToGradePerDosen(NULL, '%2F1CCMK9B2AA7S...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-14 00:36:52 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\o...', 284, Array)
+#1 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSkripsiModel.php(284): count(NULL)
+#2 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(141): App\Models\HasilNilai\HasilNilaiSkripsiModel->calculateTotalNilaiToGradePerDosen(NULL, 'MvgJVgm9mDoZ6dT...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-14 00:36:59 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\o...', 284, Array)
+#1 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSkripsiModel.php(284): count(NULL)
+#2 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(141): App\Models\HasilNilai\HasilNilaiSkripsiModel->calculateTotalNilaiToGradePerDosen(NULL, 'q3q0QeyD5pkpO8F...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-14 00:58:28 --> Undefined variable: resFromSupId
+#0 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSkripsiModel.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 183, Array)
+#1 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(237): App\Models\HasilNilai\HasilNilaiSkripsiModel->calculateTotalNilaiToGradeResult('2023000123')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->details()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#7 {main}
+CRITICAL - 2023-08-14 00:59:24 --> Undefined index: formulir_skripsi_id
+#0 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSkripsiModel.php(186): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 186, Array)
+#1 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(237): App\Models\HasilNilai\HasilNilaiSkripsiModel->calculateTotalNilaiToGradeResult('2023000123')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->details()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#7 {main}
+CRITICAL - 2023-08-14 01:07:28 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\o...', 309, Array)
+#1 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSUPModel.php(309): count(NULL)
+#2 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(65): App\Models\HasilNilai\HasilNilaiSUPModel->calculateTotalNilaiToGradePerDosen(NULL, 'EVqIQ5LZ2D0M1e4...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-14 01:07:46 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\o...', 309, Array)
+#1 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSUPModel.php(309): count(NULL)
+#2 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(65): App\Models\HasilNilai\HasilNilaiSUPModel->calculateTotalNilaiToGradePerDosen(NULL, 'pCX%2BbqMi%2B6J...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-14 01:22:42 --> Undefined index: input_nilai_id
+#0 C:\wamp64\www\oriel-web\app\Views\input-nilai\component-view-input-nilai-skripsi-form.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 19, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\o...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('input-nilai/com...', Array, true)
+#4 C:\wamp64\www\oriel-web\app\Libraries\Template.php(37): view('input-nilai/com...', Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(203): App\Libraries\Template->Frontend('input-nilai/com...', Array)
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->form()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-14 01:23:08 --> Undefined index: inputNilaiId
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 193, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->form()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-14 01:23:21 --> Undefined index: inputNilaiId
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 193, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->form()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-14 01:23:34 --> Undefined index: input_nilai_id
+#0 C:\wamp64\www\oriel-web\app\Views\input-nilai\component-view-input-nilai-skripsi-form.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 19, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\o...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('input-nilai/com...', Array, true)
+#4 C:\wamp64\www\oriel-web\app\Libraries\Template.php(37): view('input-nilai/com...', Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(203): App\Libraries\Template->Frontend('input-nilai/com...', Array)
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->form()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-14 01:23:47 --> Undefined index: input_nilai_id
+#0 C:\wamp64\www\oriel-web\app\Models\InputNilai\InputNilaiSkripsiModel.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 182, Array)
+#1 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(276): App\Models\InputNilai\InputNilaiSkripsiModel->getDataNilaiSkripsi(Array)
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getDataNilai()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#7 {main}
+CRITICAL - 2023-08-14 01:28:00 --> Undefined index: input_jadwal_id
+#0 C:\wamp64\www\oriel-web\app\Views\input-nilai\component-view-input-nilai-sup-form.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 19, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\o...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('input-nilai/com...', Array, true)
+#4 C:\wamp64\www\oriel-web\app\Libraries\Template.php(37): view('input-nilai/com...', Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(203): App\Libraries\Template->Frontend('input-nilai/com...', Array)
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->form()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-14 01:28:29 --> Undefined index: input_jadwal_id
+#0 C:\wamp64\www\oriel-web\app\Views\input-nilai\component-view-input-nilai-sup-form.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 19, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\o...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('input-nilai/com...', Array, true)
+#4 C:\wamp64\www\oriel-web\app\Libraries\Template.php(37): view('input-nilai/com...', Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(203): App\Libraries\Template->Frontend('input-nilai/com...', Array)
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->form()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-14 01:28:41 --> Undefined index: input_nilai_id
+#0 C:\wamp64\www\oriel-web\app\Models\InputNilai\InputNilaiSupModel.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 182, Array)
+#1 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(267): App\Models\InputNilai\InputNilaiSUPModel->getDataNilaiSUP(Array)
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getDataNilai()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#7 {main}
+CRITICAL - 2023-08-14 01:29:07 --> Undefined index: jadwalInputNilaiId
+#0 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 193, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->form()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-14 01:29:48 --> Undefined index: input_nilai_id
+#0 C:\wamp64\www\oriel-web\app\Models\InputNilai\InputNilaiSkripsiModel.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\o...', 182, Array)
+#1 C:\wamp64\www\oriel-web\app\Controllers\InputNilai.php(276): App\Models\InputNilai\InputNilaiSkripsiModel->getDataNilaiSkripsi(Array)
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\InputNilai->getDataNilai()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputNilai))
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#7 {main}
+CRITICAL - 2023-08-14 01:53:01 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\o...', 309, Array)
+#1 C:\wamp64\www\oriel-web\app\Models\HasilNilai\HasilNilaiSUPModel.php(309): count(NULL)
+#2 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(54): App\Models\HasilNilai\HasilNilaiSUPModel->calculateTotalNilaiToGradePerDosen(NULL, 'Xp99gXzsZGdDBwD...')
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#8 {main}
+CRITICAL - 2023-08-14 02:42:57 --> Array to string conversion
+#0 C:\wamp64\www\oriel-web\app\Views\dashboard\component-view-dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\o...', 23, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\o...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/compo...', Array, true)
+#4 C:\wamp64\www\oriel-web\app\Libraries\Template.php(37): view('dashboard/compo...', Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\Dashboard.php(31): App\Libraries\Template->Frontend('dashboard/compo...', Array)
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-14 03:15:18 --> Undefined variable: getDataInputJadwal
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 80, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-14 03:15:18 --> Undefined variable: getDataInputJadwal
+#0 C:\wamp64\www\oriel-web\app\Controllers\HasilNilai.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\o...', 156, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#6 {main}
+CRITICAL - 2023-08-14 23:31:14 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\JadwalSidang->printJadwal()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSidang))
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#5 {main}

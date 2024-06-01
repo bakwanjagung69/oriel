@@ -1,0 +1,257 @@
+ERROR - 2021-11-03 11:00:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-11-03 11:00:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Auth\AuthModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(30): App\Models\Admin\Auth\AuthModel->doLogin(Array)
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2021-11-03 11:03:34 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\wamp64\\www\\f...', 71, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\wamp64\www\framework-template-ci4\app\Models\Admin\ClassesModel.php(9): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(15): App\Models\Admin\ClassesModel->checkIsNotLogin()
+#9 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Admin\Users->__construct()
+#10 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#11 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#14 {main}
+CRITICAL - 2021-11-03 11:03:34 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\framework-template-ci4\app\Config\Events.php:32) in C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php:123
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\wamp64\\www\\f...', 123, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(123): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-03 20:24:10 --> Undefined variable: session
+#0 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Auth\AuthModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 60, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(30): App\Models\Admin\Auth\AuthModel->doLogin(Array)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2021-11-03 20:28:12 --> Invalid file: admin/users/component-view-users=form.php
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/users/com...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/users/com...', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Libraries\Template.php(22): view('admin/users/com...', Array)
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(76): App\Libraries\Template->Cms('admin/users/com...', Array)
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->form()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2021-11-03 20:28:55 --> Invalid file: admin/users/component-view-users/form.php
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/users/com...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/users/com...', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Libraries\Template.php(22): view('admin/users/com...', Array)
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(76): App\Libraries\Template->Cms('admin/users/com...', Array)
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->form()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2021-11-03 20:33:16 --> Undefined variable: request
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 33, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->getdata()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-03 22:47:17 --> Too few arguments to function App\Models\Admin\Users\UsersModel::__construct(), 0 passed in C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php on line 15 and exactly 1 expected
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(15): App\Models\Admin\Users\UsersModel->__construct()
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Admin\Users->__construct()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-03 22:48:22 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(88): App\Models\Admin\Users\UsersModel->AddNew(Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->addNewData()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-03 22:49:12 --> Default value for parameters with a class type can only be NULL
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-03 22:50:18 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(88): App\Models\Admin\Users\UsersModel->AddNew(Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->addNewData()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-03 22:51:08 --> Undefined property: App\Controllers\Admin\Users::$usersModel
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 90, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->addNewData()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-03 22:53:36 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(83): App\Models\Admin\Users\UsersModel->AddNew(Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->addNewData()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-03 22:55:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(83): App\Models\Admin\Users\UsersModel->AddNew(Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->addNewData()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-03 23:01:28 --> Undefined variable: request
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 30, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->getdata()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-03 23:11:30 --> Undefined variable: request
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 30, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->getdata()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-03 23:13:16 --> Undefined variable: usersModel
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 33, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->getdata()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-03 23:24:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(79): App\Models\Admin\Users\UsersModel->getById('3')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->getDataById()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-03 23:31:25 --> Undefined variable: db
+#0 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Users\UsersModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 58, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(16): App\Models\Admin\Users\UsersModel->__construct()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Admin\Users->__construct()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+ERROR - 2021-11-03 23:32:06 --> Not unique table/alias: 'user'
+CRITICAL - 2021-11-03 23:32:06 --> Not unique table/alias: 'user'
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Users\UsersModel.php(211): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(79): App\Models\Admin\Users\UsersModel->getById('3')
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->getDataById()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#11 {main}
+ERROR - 2021-11-03 23:33:39 --> Not unique table/alias: 'user'
+CRITICAL - 2021-11-03 23:33:39 --> Not unique table/alias: 'user'
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Users\UsersModel.php(211): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(79): App\Models\Admin\Users\UsersModel->getById('3')
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->getDataById()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#11 {main}
+CRITICAL - 2021-11-03 23:35:04 --> Call to a member function from() on string
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(79): App\Models\Admin\Users\UsersModel->getById('3')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->getDataById()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+ERROR - 2021-11-03 23:36:34 --> Not unique table/alias: 'user'
+CRITICAL - 2021-11-03 23:36:34 --> Not unique table/alias: 'user'
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Users\UsersModel.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(79): App\Models\Admin\Users\UsersModel->getById('3')
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->getDataById()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#11 {main}
+ERROR - 2021-11-03 23:38:21 --> Not unique table/alias: 'user'
+CRITICAL - 2021-11-03 23:38:21 --> Not unique table/alias: 'user'
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Users\UsersModel.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(79): App\Models\Admin\Users\UsersModel->getById('3')
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->getDataById()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#11 {main}
+CRITICAL - 2021-11-03 23:40:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Users.php(79): App\Models\Admin\Users\UsersModel->getById('3')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Users->getDataById()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2021-11-03 23:53:36 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-03 23:53:56 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-03 23:55:28 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-03 23:55:39 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-03 23:56:16 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

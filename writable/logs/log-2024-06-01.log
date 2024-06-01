@@ -1,0 +1,198 @@
+CRITICAL - 2024-06-01 23:15:41 --> Undefined variable $output
+#0 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 190)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2024-06-01 23:15:41 --> Undefined variable $getDataInputJadwal
+#0 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 257)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSkripsi()
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+ERROR - 2024-06-01 23:15:42 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:42 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-06-01 23:15:43 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:43 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-06-01 23:15:43 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:43 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-06-01 23:15:43 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:43 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-06-01 23:15:43 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:43 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-06-01 23:15:43 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:43 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-06-01 23:15:44 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:44 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-06-01 23:15:44 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:44 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-06-01 23:15:44 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:44 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-06-01 23:15:44 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:44 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-06-01 23:15:44 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:44 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-06-01 23:15:44 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:44 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-06-01 23:15:45 --> Unknown column 'tempat' in 'order clause'
+CRITICAL - 2024-06-01 23:15:45 --> Unknown column 'tempat' in 'order clause'
+#0 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\oriel\app\Models\HasilNilai\HasilNilaiSUPModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\oriel\app\Controllers\HasilNilai.php(44): App\Models\HasilNilai\HasilNilaiSUPModel->getDatatables()
+#6 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\HasilNilai->getdataSUP()
+#7 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilNilai))
+#8 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\oriel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\oriel\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}

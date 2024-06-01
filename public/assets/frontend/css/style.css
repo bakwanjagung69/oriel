@@ -1,0 +1,89 @@
+body {
+    font-family: 'Inter';
+}
+.posisi-logo {
+    top: 10px;
+}
+
+.title-login {
+    /* Frame 720 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: -100px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.title1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #004678;
+}
+
+.title2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #FF771F;
+}
+
+.title3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #004678;
+}
+.title-nim {
+    color:black;
+}
+
+.menu-child {
+    font-weight: 600; 
+    color:#0A3965; 
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid #0A3965;
+    
+}
+
+.menu-child-noactive {
+    font-weight: 600; 
+    color: rgba(10, 57, 101, 0.56);
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.img-dosen {
+    width: 60px;
+height: 60px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}

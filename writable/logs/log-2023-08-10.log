@@ -1,0 +1,26 @@
+ERROR - 2023-08-10 23:55:24 --> Column count doesn't match value count at row 1
+CRITICAL - 2023-08-10 23:55:24 --> Column count doesn't match value count at row 1
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fo...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 C:\wamp64\www\oriel-web\app\Models\Sup\SupModel.php(213): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...')
+#4 C:\wamp64\www\oriel-web\app\Controllers\Sup.php(58): App\Models\Sup\SupModel->AddNew(Array)
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Sup->addNewData()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sup))
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#10 {main}
+ERROR - 2023-08-10 23:55:40 --> Column count doesn't match value count at row 1
+CRITICAL - 2023-08-10 23:55:40 --> Column count doesn't match value count at row 1
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fo...', 0)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 C:\wamp64\www\oriel-web\app\Models\Sup\SupModel.php(213): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...')
+#4 C:\wamp64\www\oriel-web\app\Controllers\Sup.php(58): App\Models\Sup\SupModel->AddNew(Array)
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Sup->addNewData()
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sup))
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#10 {main}

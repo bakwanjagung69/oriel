@@ -1,0 +1,56 @@
+CRITICAL - 2023-08-06 22:55:44 --> Class 'App\Models\Semester\SemesterModel' not found
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Semester->__construct()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#5 {main}
+CRITICAL - 2023-08-06 23:18:42 --> Invalid file: semester/component-view-semester.php
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('semester/compon...')
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('semester/compon...', Array, true)
+#2 C:\wamp64\www\oriel-web\app\Libraries\Template.php(37): view('semester/compon...', Array)
+#3 C:\wamp64\www\oriel-web\app\Controllers\Semester.php(26): App\Libraries\Template->Frontend('semester/compon...')
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Semester->index()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Semester))
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#9 {main}
+CRITICAL - 2023-08-06 23:23:27 --> Trying to get property 'frontend' of non-object
+#0 C:\wamp64\www\oriel-web\app\Views\layout\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\o...', 9, Array)
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\wamp64\\www\\o...')
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 C:\wamp64\www\oriel-web\app\Libraries\Template.php(34): view('layout/header', Array)
+#5 C:\wamp64\www\oriel-web\app\Controllers\Semester.php(26): App\Libraries\Template->Frontend('semester/compon...')
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Semester->index()
+#7 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Semester))
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#11 {main}
+CRITICAL - 2023-08-06 23:23:48 --> Call to a member function getDatatables() on null
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Semester->getdata()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Semester))
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#5 {main}
+CRITICAL - 2023-08-06 23:24:37 --> Call to a member function getDatatables() on null
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Semester->getdata()
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Semester))
+#2 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#5 {main}
+CRITICAL - 2023-08-06 23:26:06 --> Invalid file: semester/component-view-semester-form.php
+#0 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('semester/compon...')
+#1 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('semester/compon...', Array, true)
+#2 C:\wamp64\www\oriel-web\app\Libraries\Template.php(37): view('semester/compon...', Array)
+#3 C:\wamp64\www\oriel-web\app\Controllers\Semester.php(70): App\Libraries\Template->Frontend('semester/compon...', Array)
+#4 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Semester->form()
+#5 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Semester))
+#6 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\oriel-web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\oriel-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\o...')
+#9 {main}

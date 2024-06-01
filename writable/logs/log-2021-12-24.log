@@ -1,0 +1,11 @@
+CRITICAL - 2021-12-24 18:41:49 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Messages\MessagesModel.php(148): CodeIgniter\Model->__call('sendEmail', Array)
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Messages.php(94): App\Models\Admin\Messages\MessagesModel->ComposeMail(Array)
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\Messages->composeMail()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Messages))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#9 {main}

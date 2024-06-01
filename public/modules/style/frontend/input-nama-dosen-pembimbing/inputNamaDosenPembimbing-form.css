@@ -1,0 +1,137 @@
+.column-sideby-side {
+ float: left;
+ flex-basis: 50%;
+ flex-shrink:1;
+}
+
+#wrapper section .wrapper-ul {
+ padding: 0;
+ margin: auto;
+ width: 100%;
+ list-style-type: none;
+}
+
+#wrapper .wrapper-ul .wrapper-li {
+ padding: 30px;
+ margin-bottom: 20px;
+ display: flex;
+ width: 100%;
+}
+
+#wrapper .wrapper-ul .wrapper-li img {
+ float: left;
+}
+
+#wrapper .wrapper-ul .wrapper-li .details {
+ padding: 70px 0 0 20px;
+ width: 75%;
+ display: flex;
+ flex-direction: column;
+ }
+
+#p1 {
+ font-weight: bold;
+ margin-bottom: 2px;
+ font-size: 20px;
+}
+
+#p2 {
+  color: #0A3965;
+}
+
+.avatar-disp {
+  border-radius: 50%;
+}
+
+.label-list-dosen {
+  margin: 15px 0px;
+}
+
+.label-list-dosen .sub-1 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #0A3965;
+}
+
+.section-list-item {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-list-item-name {
+  align-self: center;
+  margin-left: 30px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.parent-section-list-dosen {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section-list-item-jabatan {
+  align-self: center;
+  font-weight: 600;
+  width: 40%;
+  text-align: right;
+}
+
+.section-list-item-btn-delete {
+  align-self: center;
+  font-weight: 600;
+  margin-left: 80px;
+}
+
+.list-li-dosen {
+  padding: 6px 30px !important;
+  background-color: #ffffff;
+  margin-bottom: 5px !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+}
+
+.list-li-dosen:hover {
+  background-color: #f7f7f7;
+}
+
+.list-ul {
+  padding: 0;
+  margin: auto;
+  list-style-type: none;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.div-btn-action {
+  margin-top: 30px;
+}
+
+.list-data-empty {
+    background-color: #dbdbdb52;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.list-data-empty div {
+  text-align: center;
+}
+
+.header-list-dosen {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.div-btn-penugasan-dosen {
+  align-self: center;
+}
+
+.section-list-item-input-files {
+  align-self: center;
+  width: 100%;
+}

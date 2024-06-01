@@ -1,0 +1,417 @@
+{
+	"frontend": {
+		"style" : [
+			{ "path": "assets/frontend/css/sb-admin-2.min.css"},
+			{ "path": "assets/frontend/vendor/fontawesome-free/css/all.min.css"},
+			{ "path": "assets/cms/bower_components/font-awesome/css/font-awesome.min.css"},
+			{ "path": "assets/frontend/dataTable-v4/css/dataTables.bootstrap4.min.css"},
+			{ "path": "assets/frontend/dataTable-v4/css/bootstrap4.css"},
+			{ "path": "assets/cms/datatables/css/buttons.dataTables.min.css"},
+			{ "path": "assets/system/lib/pnotify/jquery.pnotify.default.css"},
+			{ "path": "assets/cms/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css"},
+			{ "path": "assets/cms/plugins/Jquery-confirm/jquery-confirm.min.css"},
+			{ "path" : "assets/frontend/css-custom/style.css"},
+			{ "path": "assets/cms/bower_components/select2/dist/css/select2.min.css"},
+			{ "path": "assets/cms/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css"},
+			{ "path": "assets/frontend/datetimepicker/jquery.datetimepicker.min.css"},
+			{ "path": "assets/system/lib/MDTimePicker/mdtimepicker.css"},
+			{ "path": "assets/system/lib/MDTimePicker/mdtimepicker-theme.css"},
+			{ "path": "assets/system/lib/timepicker-simple/jquery.timepicker.min.css"}
+		],
+		"js" : [
+			{ "path": "assets/frontend/vendor/jquery/jquery.min.js"},
+			{ "path": "assets/frontend/vendor/jquery-easing/jquery.easing.min.js"},
+			{ "path": "assets/frontend/js/sb-admin-2.js"},
+			{ "path": "assets/cms/plugins/jquery.lazy-master/jquery.lazy.min.js"},
+			{ "path": "assets/system/lib/lazyLoad/onloadLazyImg.js"},
+			{ "path": "assets/frontend/vendor/chart.js/Chart.min.js"},
+			{ "path": "assets/frontend/js/demo/chart-area-demo.js"},
+			{ "path": "assets/frontend/vendor/bootstrap/js/bootstrap.bundle.min.js"},
+			{ "path": "assets/cms/bower_components/moment/min/moment.min.js"},
+			{ "path": "assets/cms/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"},
+			{ "path" : "assets/frontend/dataTable-v4/js/jquery.dataTables.min.js"},
+			{ "path" : "assets/frontend/dataTable-v4/js/dataTables.bootstrap4.min.js"},
+			{ "path" : "assets/cms/dataTable-responsive/js/dataTables.responsive.min.js"},
+			{ "path" : "assets/cms/dataTable-responsive/js/responsive.bootstrap.min.js"},
+			{ "path" : "assets/cms/datatables/js/jquery.dataTables.min.js"},
+			{ "path" : "assets/cms/datatables/js/dataTables.buttons.min.js"},
+			{ "path" : "assets/cms/datatables/js/buttons.html5.min.js"},
+			{ "path" : "assets/cms/datatables/js/jszip.min.js"},
+			{ "path" : "assets/cms/datatables/js/pdfmake.min.js"},
+			{ "path" : "assets/cms/datatables/js/vfs_fonts.js"},
+			{ "path" : "assets/cms/datatables/js/buttons.print.min.js"},
+			{ "path" : "assets/cms/datatables/js/buttons.colVis.min.js"},
+			{ "path" : "assets/system/lib/pnotify/jquery.pnotify.min.js"},
+			{ "path": "assets/cms/plugins/Jquery-confirm/jquery-confirm.min.js"},
+			{ "path": "assets/frontend/sweet-alert/sweetalert.min.js"},
+			{ "path" : "assets/frontend/js-custom/notif.js"},
+			{ "path" : "assets/cms/bower_components/select2/dist/js/select2.full.min.js"},
+			{ "path": "assets/frontend/datetimepicker/jquery.datetimepicker.full.js"},
+			{ "path": "assets/system/lib/MDTimePicker/mdtimepicker.js"},
+			{ "path": "assets/system/lib/timepicker-simple/jquery.timepicker.min.js"},
+			{ "path": "lib.config.js" }
+		],
+		"script_modules" : [
+			{ 
+				"path" : "/modules/script/frontend/users/users.js",
+				"path_name" : "users",
+				"file_name" : "users"
+			},
+			{ 
+				"path" : "/modules/script/frontend/users/users-form.js",
+				"path_name" : "users/form",
+				"file_name" : "users-form"
+			},
+			{ 
+				"path" : "/modules/script/frontend/uji-kelayakan/ujiKelayakan.js",
+				"path_name" : "uji-kelayakan",
+				"file_name" : "ujiKelayakan"
+			},
+			{ 
+				"path" : "/modules/script/frontend/sup/sup.js",
+				"path_name" : "sup",
+				"file_name" : "sup"
+			},
+			{ 
+				"path" : "/modules/script/frontend/skripsi/skripsi.js",
+				"path_name" : "skripsi",
+				"file_name" : "skripsi"
+			},
+			{ 
+				"path" : "/modules/script/frontend/list-pendaftaran/listPendaftaran.js",
+				"path_name" : "list-pendaftaran",
+				"file_name" : "listPendaftaran"
+			},
+			{ 
+				"path" : "/modules/script/frontend/list-pendaftaran/listPendaftaran-details.js",
+				"path_name" : "list-pendaftaran-details",
+				"file_name" : "listPendaftaran-details"
+			},
+			{ 
+				"path" : "/modules/script/frontend/surat-tugas/suratTugas.js",
+				"path_name" : "surat-tugas",
+				"file_name" : "suratTugas"
+			},
+			{ 
+				"path" : "/modules/script/frontend/input-jadwal/inputJadwal.js",
+				"path_name" : "input-jadwal",
+				"file_name" : "inputJadwal"
+			},
+			{ 
+				"path" : "/modules/script/frontend/input-jadwal/inputJadwal-details.js",
+				"path_name" : "input-jadwal-details",
+				"file_name" : "inputJadwal-details"
+			},
+			{ 
+				"path" : "/modules/script/frontend/jadwal-sidang/jadwalSidang.js",
+				"path_name" : "jadwal-sidang",
+				"file_name" : "jadwalSidang"
+			},
+			{ 
+				"path" : "/modules/script/frontend/jadwal-sidang/jadwalSidang-details.js",
+				"path_name" : "jadwal-sidang-details",
+				"file_name" : "jadwalSidang-details"
+			},
+			{ 
+				"path" : "/modules/script/frontend/input-nilai/inputNilai.js",
+				"path_name" : "input-nilai",
+				"file_name" : "inputNilai"
+			},
+			{ 
+				"path" : "/modules/script/frontend/input-nilai/inputNilai-form.js",
+				"path_name" : "input-nilai-form",
+				"file_name" : "inputNilai-form"
+			},
+			{ 
+				"path" : "/modules/script/frontend/input-nilai/inputNilai-details.js",
+				"path_name" : "input-nilai-details",
+				"file_name" : "inputNilai-details"
+			},
+			{ 
+				"path" : "/modules/script/frontend/hasil-nilai/hasilNilai.js",
+				"path_name" : "hasil-nilai",
+				"file_name" : "hasilNilai"
+			},
+			{ 
+				"path" : "/modules/script/frontend/hasil-nilai/hasilNilai-details.js",
+				"path_name" : "hasil-nilai-details",
+				"file_name" : "hasilNilai-details"
+			},
+			{ 
+				"path" : "/modules/script/frontend/hasil-nilai/hasilNilai-views.js",
+				"path_name" : "hasil-nilai-views",
+				"file_name" : "hasilNilai-views"
+			},
+			{ 
+				"path" : "/modules/script/frontend/surat-tugas/suratTugas-penilaianForm.js",
+				"path_name" : "surat-tugas-penilaianForm",
+				"file_name" : "suratTugas-penilaianForm"
+			},
+			{ 
+				"path" : "/modules/script/frontend/surat-tugas/suratTugas-hasilPenilaian.js",
+				"path_name" : "surat-tugas-hasilPenilaian",
+				"file_name" : "suratTugas-hasilPenilaian"
+			},
+			{ 
+				"path" : "/modules/script/frontend/hasil-penilaian-judul/hasilPenilaianJudul.js",
+				"path_name" : "hasil-penilaian-judul",
+				"file_name" : "hasilPenilaianJudul"
+			},
+			{ 
+				"path" : "/modules/script/frontend/hasil-penilaian-judul/hasilPenilaianJudul-hasilPenilaian.js",
+				"path_name" : "hasil-penilaian-judul-hasilPenilaian",
+				"file_name" : "hasilPenilaianJudul-hasilPenilaian"
+			},
+			{ 
+				"path" : "/modules/script/frontend/hasil-penilaian-judul/hasilPenilaianJudul-kirimSuratKelayakanJudul.js",
+				"path_name" : "hasil-penilaian-judul-kirimSuratKelayakanJudul",
+				"file_name" : "hasilPenilaianJudul-kirimSuratKelayakanJudul"
+			},
+			{ 
+				"path" : "/modules/script/frontend/input-nama-dosen-pembimbing/inputNamaDosenPembimbing.js",
+				"path_name" : "input-nama-dosen-pembimbing",
+				"file_name" : "inputNamaDosenPembimbing"
+			},
+			{ 
+				"path" : "/modules/script/frontend/input-nama-dosen-pembimbing/inputNamaDosenPembimbing-form.js",
+				"path_name" : "input-nama-dosen-pembimbing-form",
+				"file_name" : "inputNamaDosenPembimbing-form"
+			},
+			{ 
+				"path" : "/modules/script/frontend/semester/semester.js",
+				"path_name" : "semester",
+				"file_name" : "semester"
+			},
+			{ 
+				"path" : "/modules/script/frontend/semester/semester-form.js",
+				"path_name" : "semester/form",
+				"file_name" : "semester-form"
+			},
+			{ 
+				"path" : "/modules/script/frontend/change-password/changePassword.js",
+				"path_name" : "change-password",
+				"file_name" : "changePassword"
+			}
+		],
+		"style_modules" : [
+			{
+				"path" : "/modules/style/frontend/users/users-form.css",
+				"path_name" : "users/form",
+				"file_name" : "users-form"
+			},
+			{
+				"path" : "/modules/style/frontend/sup/sup-form.css",
+				"path_name" : "sup/form",
+				"file_name" : "sup-form"
+			},
+			{
+				"path" : "/modules/style/frontend/skripsi/skripsi-form.css",
+				"path_name" : "skripsi/form",
+				"file_name" : "skripsi-form"
+			},
+			{ 
+				"path" : "/modules/style/frontend/list-pendaftaran/listPendaftaran-details.css",
+				"path_name" : "list-pendaftaran-details",
+				"file_name" : "listPendaftaran-details"
+			},
+			{ 
+				"path" : "/modules/style/frontend/input-jadwal/inputJadwal-details.css",
+				"path_name" : "input-jadwal-details",
+				"file_name" : "inputJadwal-details"
+			},
+			{ 
+				"path" : "/modules/style/frontend/jadwal-sidang/jadwalSidang-details.css",
+				"path_name" : "jadwal-sidang-details",
+				"file_name" : "jadwalSidang-details"
+			},
+			{ 
+				"path" : "/modules/style/frontend/input-nilai/inputNilai-form.css",
+				"path_name" : "input-nilai-form",
+				"file_name" : "inputNilai-details"
+			},
+			{ 
+				"path" : "/modules/style/frontend/input-nilai/inputNilai-details.css",
+				"path_name" : "input-nilai-details",
+				"file_name" : "inputNilai-details"
+			},
+			{ 
+				"path" : "/modules/style/frontend/hasil-nilai/hasilNilai-details.css",
+				"path_name" : "hasil-nilai-details",
+				"file_name" : "hasilNilai-details"
+			},
+			{ 
+				"path" : "/modules/style/frontend/hasil-nilai/hasilNilai-views.css",
+				"path_name" : "hasil-nilai-views",
+				"file_name" : "hasilNilai-views"
+			},
+			{ 
+				"path" : "/modules/style/frontend/hasil-penilaian-judul/hasilPenilaianJudul-kirimSuratKelayakanJudul.css",
+				"path_name" : "hasil-penilaian-judul-kirimSuratKelayakanJudul",
+				"file_name" : "hasilPenilaianJudul-kirimSuratKelayakanJudul"
+			},
+			{ 
+				"path" : "/modules/style/frontend/hasil-penilaian-judul/hasilPenilaianJudul-hasilPenilaian.css",
+				"path_name" : "hasil-penilaian-judul-hasilPenilaian",
+				"file_name" : "hasilPenilaianJudul-hasilPenilaian"
+			},
+			{ 
+				"path" : "/modules/style/frontend/input-nama-dosen-pembimbing/inputNamaDosenPembimbing-form.css",
+				"path_name" : "input-nama-dosen-pembimbing-form",
+				"file_name" : "inputNamaDosenPembimbing-form"
+			}
+		]
+	},
+	"cms": {
+		"style" : [
+			{ "path": "assets/cms/bower_components/bootstrap/dist/css/bootstrap.min.css"},
+			{ "path": "assets/cms/bower_components/font-awesome/css/font-awesome.min.css"},
+			{ "path": "assets/cms/bower_components/Ionicons/css/ionicons.min.css"},
+			{ "path": "assets/cms/dist/css/AdminLTE.min.css"},
+			{ "path": "assets/cms/dist/css/skins/_all-skins.min.css"},
+			{ "path": "assets/cms/bower_components/morris.js/morris.css"},
+			{ "path": "assets/cms/bower_components/jvectormap/jquery-jvectormap.css"},
+			{ "path": "assets/cms/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css"},
+			{ "path": "assets/cms/bower_components/bootstrap-daterangepicker/daterangepicker.css"},
+			{ "path": "assets/cms/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css"},
+			{ "path": "assets/cms/plugins/iCheck/square/blue.css"},
+			{ "path": "?https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic"},
+			{ "path": "assets/cms/plugins/jquery-confirm/jquery-confirm.min.css"},
+			{ "path": "assets/cms/bower_components/select2/dist/css/select2.min.css"},
+			{ "path": "assets/cms/bower_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css"},
+			{ "path" : "assets/cms/dataTable-responsive/css/bootstrap.min.css"},
+			{ "path" : "assets/cms/dataTable-responsive/css/dataTables.bootstrap.min.css"},
+			{ "path" : "assets/cms/dataTable-responsive/css/responsive.bootstrap.min.css"},
+			{ "path": "assets/cms/datatables/css/buttons.dataTables.min.css"},
+			{ "path" : "assets/system/lib/email-multiple/email.multiple.css"},
+			{ "path": "assets/system/lib/pnotify/jquery.pnotify.default.css"},
+			{ "path": "assets/cms/css-custom/_custom.css"}
+		],
+		"js" :[
+			{ "path": "assets/cms/bower_components/jquery/dist/jquery.min.js"},
+			{ "path": "assets/cms/bower_components/jquery-ui/jquery-ui.min.js"},
+			{ "path": "assets/cms/bower_components/bootstrap/dist/js/bootstrap.min.js"},
+			{ "path": "assets/cms/bower_components/raphael/raphael.min.js"},
+			{ "path": "assets/cms/bower_components/morris.js/morris.min.js"},
+			{ "path": "assets/cms/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"},
+			{ "path": "assets/cms/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"},
+			{ "path": "assets/cms/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"},
+			{ "path": "assets/cms/bower_components/jquery-knob/dist/jquery.knob.min.js"},
+			{ "path": "assets/cms/bower_components/moment/min/moment.min.js"},
+			{ "path": "assets/cms/bower_components/bootstrap-daterangepicker/daterangepicker.js"},
+			{ "path": "assets/cms/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"},
+			{ "path": "assets/cms/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"},
+			{ "path": "assets/cms/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"},
+			{ "path": "assets/cms/bower_components/fastclick/lib/fastclick.js"},
+			{ "path": "assets/cms/dist/js/adminlte.min.js"},
+			{ "path": "assets/cms/dist/js/pages/dashboard.js"},
+			{ "path": "assets/cms/dist/js/demo.js"},
+			{ "path": "assets/cms/plugins/iCheck/icheck.min.js"},
+			{ "path" : "assets/cms/bower_components/ckeditor/ckeditor.js"},
+			{ "path" : "assets/cms/bower_components/select2/dist/js/select2.full.min.js"},
+			{ "path" : "assets/cms/plugins/input-mask/jquery.inputmask.js"},
+			{ "path" : "assets/cms/plugins/input-mask/jquery.inputmask.date.extensions.js"},
+			{ "path" : "assets/cms/plugins/input-mask/jquery.inputmask.extensions.js"},
+			{ "path" : "assets/cms/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"},
+			{ "path" : "assets/cms/plugins/timepicker/bootstrap-timepicker.min.js"},
+			{ "path" : "assets/cms/bower_components/ckeditor/ckeditor.js"},
+			{ "path" : "assets/cms/plugins/jquery-confirm/jquery-confirm.min.js"},
+			{ "path" : "assets/cms/dataTable-responsive/js/jquery.dataTables.min.js"},
+			{ "path" : "assets/cms/dataTable-responsive/js/dataTables.bootstrap.min.js"},
+			{ "path" : "assets/cms/dataTable-responsive/js/dataTables.responsive.min.js"},
+			{ "path" : "assets/cms/dataTable-responsive/js/responsive.bootstrap.min.js"},
+			{ "path" : "assets/cms/datatables/js/jquery.dataTables.min.js"},
+			{ "path" : "assets/cms/datatables/js/dataTables.buttons.min.js"},
+			{ "path" : "assets/cms/datatables/js/buttons.html5.min.js"},
+			{ "path" : "assets/cms/datatables/js/jszip.min.js"},
+			{ "path" : "assets/cms/datatables/js/pdfmake.min.js"},
+			{ "path" : "assets/cms/datatables/js/vfs_fonts.js"},
+			{ "path" : "assets/cms/datatables/js/buttons.print.min.js"},
+			{ "path" : "assets/cms/datatables/js/buttons.colVis.min.js"},
+			{ "path" : "assets/cms/plugins/jquery.lazy-master/jquery.lazy.min.js"},
+			{ "path" : "assets/system/lib/lazyLoad/onloadLazyImg.js"},
+			{ "path" : "assets/system/lib/email-multiple/jquery.email.multiple.js"},
+			{ "path" : "assets/system/lib/pnotify/jquery.pnotify.min.js"},
+			{ "path" : "assets/cms/js-custom/notif.js"},
+			{ "path": "lib.config.js" }
+		],
+		"script_modules" : [
+			{ 
+				"path" : "/modules/script/cms/dashboard/dashboard.js",
+				"path_name" : "/admin/dashboard",
+				"file_name" : "dashboard"
+			},
+			{ 
+				"path" : "/modules/script/cms/users/users.js",
+				"path_name" : "/admin/users",
+				"file_name" : "users"
+			},
+			{ 
+				"path" : "/modules/script/cms/users/users-form.js",
+				"path_name" : "admin/users/form",
+				"file_name" : "/users-form"
+			},
+			{ 
+				"path" : "/modules/script/cms/messages/messages.js",
+				"path_name" : "/admin/messages",
+				"file_name" : "messages"
+			},
+			{ 
+				"path" : "/modules/script/cms/messages/messages-compose.js",
+				"path_name" : "admin/messages/compose",
+				"file_name" : "/messages-compose"
+			},
+			{ 
+				"path" : "/modules/script/cms/messages/messages-reply.js",
+				"path_name" : "admin/messages/reply",
+				"file_name" : "/messages-reply"
+			},
+			{ 
+				"path" : "/modules/script/cms/config-mail/configMail.js",
+				"path_name" : "/admin/config-mail",
+				"file_name" : "config-mail"
+			},
+			{ 
+				"path" : "/modules/script/cms/config-mail/configMail-form.js",
+				"path_name" : "admin/config-mail/form",
+				"file_name" : "/config-mail-form"
+			},
+			{ 
+				"path" : "/modules/script/cms/profile/profile.js",
+				"path_name" : "/admin/profile",
+				"file_name" : "profile"
+			}
+		],
+		"style_modules" : [
+			{
+				"path" : "/modules/style/cms/users/users-form.css",
+				"path_name" : "admin/users/form",
+				"file_name" : "users-form"
+			},
+			{
+				"path" : "/modules/style/cms/messages/messages-compose.css",
+				"path_name" : "admin/messages/compose",
+				"file_name" : "messages-compose"
+			},
+			{
+				"path" : "/modules/style/cms/messages/messages-reply.css",
+				"path_name" : "admin/messages/reply",
+				"file_name" : "messages-reply"
+			},
+			{
+				"path" : "/modules/style/cms/config-mail/configMail.css",
+				"path_name" : "admin/config-mail",
+				"file_name" : "config-mail"
+			},
+			{
+				"path" : "/modules/style/cms/config-mail/configMail-form.css",
+				"path_name" : "admin/config-mail/form",
+				"file_name" : "config-mail-form"
+			},
+			{
+				"path" : "/modules/style/cms/profile/profile.css",
+				"path_name" : "admin/profile",
+				"file_name" : "profile"
+			}
+		]
+	}
+}

@@ -1,0 +1,109 @@
+.image-preview-input {
+    position: relative;
+  overflow: hidden;
+  margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+
+.input-group-addon > i {
+  border: 1px solid #ccc;
+}
+
+.main-mail {
+  padding: 5px 6px;
+  border-left: 3px solid #009688;
+  background-color: #0096881f;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#iconEye {
+  position: absolute;
+  right: 13px;
+  top: 34px;
+  cursor: pointer;
+}
+
+.account {
+  padding: 21px 5px;
+  border-left: 28px solid #f44336;
+  background-color: #f443362b;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.account:before {
+  content: "Email Account";
+  transform: rotate3d(2, -1, 37, 270deg);
+  position: absolute;
+  left: -26px;
+  color: #fff;
+  margin-top: 28px;
+}
+
+.connection {
+  padding: 21px 5px;
+  border-left: 28px solid #3f51b5;
+  background-color: #d7ddff2b;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.connection:before {
+  content: "Connection";
+  transform: rotate3d(2, -1, 37, 270deg);
+  position: absolute;
+  left: -18px;
+  color: #fff;
+  margin-top: 28px;
+}
+
+.logoAndSosmed {
+  padding: 21px 5px;
+  border-left: 28px solid #2196f3;
+  background-color: #c7e6ff2b;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.logoAndSosmed:before {
+  content: "Logo Mail & Social Media";
+  transform: rotate3d(2, -1, 37, 270deg);
+  position: absolute;
+  left: -62px;
+  color: #fff;
+  margin-top: 75px;
+}
+
+.replyToMail {
+  padding: 42px 5px;
+  border-left: 28px solid #607d8b;
+  background-color: #607d8b2b;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.replyToMail:before {
+  content: "Setting Reply Email";
+  transform: rotate3d(2, -1, 37, 270deg);
+  position: absolute;
+  left: -42px;
+  color: #fff;
+  margin-top: 28px;
+}

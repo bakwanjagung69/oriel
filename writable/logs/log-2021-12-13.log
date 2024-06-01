@@ -1,0 +1,92 @@
+ERROR - 2021-12-13 17:25:29 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2021-12-13 17:25:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Auth\AuthModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(37): App\Models\Admin\Auth\AuthModel->doLogin(Array)
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2021-12-13 17:25:29 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\wamp64\\www\\f...', 96, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Admin\Login), true)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(235): include('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-13 17:28:18 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2021-12-13 17:28:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Auth\AuthModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(37): App\Models\Admin\Auth\AuthModel->doLogin(Array)
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2021-12-13 17:28:18 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\wamp64\\www\\f...', 96, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Admin\Login), true)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(235): include('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-13 17:28:32 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2021-12-13 17:28:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Auth\AuthModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(37): App\Models\Admin\Auth\AuthModel->doLogin(Array)
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2021-12-13 17:28:32 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\wamp64\\www\\f...', 96, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Admin\Login), true)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(235): include('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-13 17:28:47 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2021-12-13 17:28:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Auth\AuthModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(37): App\Models\Admin\Auth\AuthModel->doLogin(Array)
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2021-12-13 17:28:47 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\wamp64\\www\\f...', 96, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Admin\Login), true)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(235): include('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

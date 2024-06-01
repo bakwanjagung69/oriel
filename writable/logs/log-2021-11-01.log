@@ -1,0 +1,472 @@
+CRITICAL - 2021-11-01 15:25:57 --> Undefined property: App\Controllers\Admin\Login::$input
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 14, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-01 15:27:15 --> Undefined variable: request
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 14, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-01 15:29:33 --> Undefined variable: request
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 14, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-01 15:29:37 --> Undefined variable: request
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 14, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-01 15:48:51 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(9): CodeIgniter\Model->__get('session')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(18): App\Models\Admin\AuthModel->checkIsLogin()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-01 15:49:43 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(9): CodeIgniter\Model->__get('session')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(18): App\Models\Admin\AuthModel->checkIsLogin()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-01 15:49:48 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(9): CodeIgniter\Model->__get('session')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(18): App\Models\Admin\AuthModel->checkIsLogin()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-01 15:50:07 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(9): CodeIgniter\Model->__get('session')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(18): App\Models\Admin\AuthModel->checkIsLogin()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-01 15:51:39 --> Undefined variable: session
+#0 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 9, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(18): App\Models\Admin\AuthModel->checkIsLogin()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-01 15:52:18 --> Undefined variable: config
+#0 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 5, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Admi...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Admi...')
+#5 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(17): spl_autoload_call('App\\Models\\Admi...')
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-01 15:52:25 --> Undefined variable: session
+#0 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 10, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(18): App\Models\Admin\AuthModel->checkIsLogin()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-01 16:08:35 --> Undefined property: App\Controllers\Admin\Login::$authModel
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 27, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-01 16:10:01 --> Undefined property: App\Controllers\Admin\Login::$authModel
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 27, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-01 16:11:04 --> Array to string conversion
+#0 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\f...', 19, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): App\Models\Admin\AuthModel->doLogin(Array)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-01 17:17:20 --> syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Admi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Admi...')
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(15): spl_autoload_call('App\\Models\\Admi...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-11-01 17:20:04 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2021-11-01 17:20:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): App\Models\Admin\AuthModel->doLogin(Array)
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-11-01 17:20:29 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-01 17:20:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): App\Models\Admin\AuthModel->doLogin(Array)
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-11-01 17:20:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->table} LIMIT 1' at line 1
+CRITICAL - 2021-11-01 17:20:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->table} LIMIT 1' at line 1
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT name FRO...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): App\Models\Admin\AuthModel->doLogin(Array)
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-01 17:21:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} LIMIT 1' at line 1
+CRITICAL - 2021-11-01 17:21:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} LIMIT 1' at line 1
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT name FRO...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): App\Models\Admin\AuthModel->doLogin(Array)
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-01 17:22:26 --> Table 'db_template-ci4.users' doesn't exist
+CRITICAL - 2021-11-01 17:22:26 --> Table 'db_template-ci4.users' doesn't exist
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT name FRO...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): App\Models\Admin\AuthModel->doLogin(Array)
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-01 17:22:26 --> Table 'db_template-ci4.users' doesn't exist
+CRITICAL - 2021-11-01 17:22:26 --> Table 'db_template-ci4.users' doesn't exist
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT name FRO...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): App\Models\Admin\AuthModel->doLogin(Array)
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-01 17:22:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} LIMIT 1' at line 1
+CRITICAL - 2021-11-01 17:22:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} LIMIT 1' at line 1
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT name FRO...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): App\Models\Admin\AuthModel->doLogin(Array)
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-01 17:24:30 --> Undefined variable: table
+#0 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 23, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): App\Models\Admin\AuthModel->doLogin(Array)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-11-01 17:24:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''user' LIMIT 1' at line 1
+CRITICAL - 2021-11-01 17:24:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''user' LIMIT 1' at line 1
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT name FRO...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): App\Models\Admin\AuthModel->doLogin(Array)
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-01 17:25:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''user' WHERE `email` = 'admin@es.id'' at line 1
+CRITICAL - 2021-11-01 17:25:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''user' WHERE `email` = 'admin@es.id'' at line 1
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT name FRO...')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): App\Models\Admin\AuthModel->doLogin(Array)
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-01 17:31:41 --> Trying to get property 'password' of non-object
+#0 C:\wamp64\www\framework-template-ci4\app\Models\Admin\AuthModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 27, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(27): App\Models\Admin\AuthModel->doLogin(Array)
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-01 17:38:25 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:38:37 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:39:11 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:39:14 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:40:17 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:41:02 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:41:31 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:41:34 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:43:05 --> Cannot declare class App\Models\Admin\authModel\AuthModel\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:43:24 --> Cannot declare class App\Models\Admin\authModel\AuthModel\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:43:38 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:43:54 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:44:20 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:45:11 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:45:20 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:45:22 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:45:24 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:47:46 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:48:14 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:48:26 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:48:36 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:49:13 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:49:17 --> Cannot declare class App\Models\Admin\AuthModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-01 17:57:27 --> Invalid file: admin/login.php
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(34): view('admin/login')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-01 17:57:43 --> Invalid file: admin/login.php
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(34): view('admin/login')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-01 17:58:40 --> Invalid file: login.php
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(34): view('login')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-01 18:01:19 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/login/com...', Array, true)
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(35): view('admin/login/com...')
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-01 18:02:34 --> Function name must be a string
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/login/com...', Array, true)
+#3 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(35): view('admin/login/com...')
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-01 18:11:37 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Auth\AuthModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 71, Array)
+#1 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Auth\AuthModel.php(33): App\Models\Admin\Auth\AuthModel->updateLogData(Array)
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(30): App\Models\Admin\Auth\AuthModel->doLogin(Array)
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-01 18:48:06 --> syntax error, unexpected ')'
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/dashboard')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/dashboard')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-01 18:48:37 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(719): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Dashboard.php(13): CodeIgniter\Model->__call('isNotLogin', Array)
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Admin\Dashboard->__construct()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-01 18:49:07 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(719): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Dashboard.php(13): CodeIgniter\Model->__call('isNotLogin', Array)
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Admin\Dashboard->__construct()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-01 18:55:22 --> Undefined variable: classesModel
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 13, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Admin\Dashboard->__construct()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-01 18:55:32 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Model.php(719): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Dashboard.php(13): CodeIgniter\Model->__call('isNotLogin', Array)
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Admin\Dashboard->__construct()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-01 19:08:55 --> syntax error, unexpected '}'
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/dashboard')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/dashboard')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-01 19:14:49 --> syntax error, unexpected ';', expecting ')'
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/dashboard')
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/dashboard')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-01 19:18:53 --> Object of class App\Models\Admin\ClassesModel could not be converted to string
+#0 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Dashboard.php(11): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\f...', 11, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Admin\Dashboard->__construct()
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-01 19:32:07 --> Trying to get property 'full_name' of non-object
+#0 C:\wamp64\www\framework-template-ci4\app\Views\admin\layout\mainHeader.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 210, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/layout/ma...', Array, true)
+#4 C:\wamp64\www\framework-template-ci4\app\Libraries\Template.php(18): view('admin/layout/ma...', Array)
+#5 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Dashboard.php(19): App\Libraries\Template->Cms('admin/dashboard...', Array)
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Dashboard->index()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-01 19:32:56 --> Trying to get property 'thumbnail_images' of non-object
+#0 C:\wamp64\www\framework-template-ci4\app\Views\admin\layout\mainHeader.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 209, Array)
+#1 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/layout/ma...', Array, true)
+#4 C:\wamp64\www\framework-template-ci4\app\Libraries\Template.php(18): view('admin/layout/ma...', Array)
+#5 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Dashboard.php(19): App\Libraries\Template->Cms('admin/dashboard...', Array)
+#6 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Dashboard->index()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#8 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-01 20:40:31 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-01 20:40:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\framework-template-ci4\app\Models\Admin\Auth\AuthModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 C:\wamp64\www\framework-template-ci4\app\Controllers\Admin\Login.php(30): App\Models\Admin\Auth\AuthModel->doLogin(Array)
+#3 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Login->auth()
+#4 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\framework-template-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\framework-template-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
