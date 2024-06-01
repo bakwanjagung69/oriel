@@ -1,11 +1,9 @@
-# oriel-web
-Web application - Tugas Akhir
-
 # First, Update Composer with terminal or CMD
 
-1. run command *composer update*
-2. wait for it to finish
-3. Done :)
+1. run command *composer install*
+2. migrate SQL to database
+3. run command *php spark serve*
+4. Done :)
 
 # Running your Web Application
 
